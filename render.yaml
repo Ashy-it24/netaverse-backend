@@ -1,0 +1,14 @@
+# Render Deployment Configuration
+# This file configures deployment on Render.com
+
+# Build Command
+npm install
+
+# Start Command  
+npm start
+
+# Environment
+NODE_VERSION=18
+
+# Health Check Endpoint
+/health
